@@ -30,8 +30,8 @@ import (
 	"runtime"
 	"strings"
 	"time"
-
-	"github.com/lucas-clemente/quic-go/h2quic"
+	
+	"github.com/lucas-clemente/quic-go/tree/gquic/h2quic"
 	"github.com/mholt/caddy"
 	"github.com/mholt/caddy/caddyhttp/staticfiles"
 	"github.com/mholt/caddy/caddytls"
