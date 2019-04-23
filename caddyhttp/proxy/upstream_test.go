@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/tree/gquic/h2quic"
+	"github.com/dongjiafengdongjiafeng/quic-go/h2quic"
 	"github.com/mholt/caddy/caddyfile"
 )
 
