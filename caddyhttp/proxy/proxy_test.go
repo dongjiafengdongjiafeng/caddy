@@ -39,7 +39,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/h2quic"
+	"github.com/lucas-clemente/quic-go/tree/gquic/h2quic"
 	"github.com/mholt/caddy/caddyfile"
 	"github.com/mholt/caddy/caddyhttp/httpserver"
 
