@@ -40,9 +40,8 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-
-	"github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/h2quic"
+	"github.com/lucas-clemente/quic-go/tree/gquic"
+	"github.com/lucas-clemente/quic-go/tree/gquic/h2quic"
 	"github.com/mholt/caddy/caddyhttp/httpserver"
 )
 
